@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:11
 WORKDIR /app
 COPY target/springboot-containerization.jar /springboot-docker-containerization.jar
 EXPOSE 8080
